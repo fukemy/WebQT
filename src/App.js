@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { useEffect } from 'react';
 import * as Bluetooth from 'react-bluetooth';
 import { Link, Route, Routes } from 'react-router-dom';
@@ -58,7 +56,7 @@ function App() {
           display: 'flex',
           justifyContent: 'space-evenly',
           height: 200,
-          backgroundColor: 'green',
+          backgroundColor: 'purple',
           fontSize: '20px',
         }}>
           <Link to={'/'}
